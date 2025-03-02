@@ -59,6 +59,24 @@ The system is built using the following hardware components:
    pip install -r requirements.txt
    ```
 
+## Execution
+
+### Raspberry Pi Directory Code
+
+To run the server on the Raspberry Pi for controlling the lock mechanism, navigate to the `RaspberryPi` directory and execute the following command:
+
+```bash
+python3 main.py
+```
+
+### Face Detection Model
+
+To run the face detection and recognition system, navigate to the `FaceDetectionModel` directory and execute the following command:
+
+```bash
+python3 main.py
+```
+
 ## Testing and Calibration
 
 - **Face Recognition Accuracy Testing** – Tested under various lighting conditions.
